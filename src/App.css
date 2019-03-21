@@ -1,13 +1,46 @@
+:root{
+  --background-color: #F8F9FA;
+  --dark-accent: #343A40;
+  --background-color-secondary: #e0e0e0;
+  --highlight-color: #f88550;
+  --white-text: white;
+  --passed-color: #79e479;
+  --font-color: #1b1b1b;
+}
+
 .App {
   text-align: center;
 
   width: 90%;
   margin: 0 auto;
-  min-width: 500px;
+  min-width: 400px;
+  background-color: var(--background-color-secondary);
+  
+}
 
-  background-color: black;
+.extension-title h2{
+  padding: 1em 0;
 }
 
 .token-checker{
-  color: red
+  box-shadow: 2px 2px 10px black inset;
+  padding: 1em;
 }
+
+textarea{
+  resize: none;
+  width: 95%;
+  height: 10em;
+  margin-bottom: 1em;
+}
+
+.section-box{
+  box-shadow: 2px 2px 10px var(--dark-accent) inset;
+  max-width: 500px;
+
+  margin: 0 auto;
+  padding: 1em;
+  border-radius: 8px;
+  background-color: var(--background-color);
+}
+

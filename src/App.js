@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './App.css';
-
+import './css/input.css'
 
 import TokenChecker from './components/TokenChecker';
 
