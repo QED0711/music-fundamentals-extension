@@ -28,3 +28,9 @@ $ npm install
 ```
 $ npm run build
 ```
+
+This last command will create a new folder called `build` in the main project directory.
+
+4. Go to Google Chrome -> Settings -> Extensions -> Load Unpacked. Once there, navigate to the newly generated `build` folder in the project directory, and click okay. 
+
+You should now see a new icon in your extensions. Clicking on it will show the authentication page from the [musictheoryportal](http://musictheoryportal.com/) app. Paste a user submitted token into the main text field as you normally would to authenticate it. 
